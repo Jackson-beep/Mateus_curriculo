@@ -1,0 +1,70 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh; /* altura da tela toda */
+    }
+
+    /* Coluna do texto */
+    .lado-esquerdo {
+      background-color: #fff;
+      color: #000;
+      width: 65%; /* lado do conteúdo */
+      padding: 30px;
+    }
+
+    /* Coluna da faixa azul */
+    .lado-direito {
+      background-color: #1e3c72; /* azul */
+      width: 35%; /* lado azul */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+    }
+    .lado-direito img {
+      width: 75%;
+      height:27% ;
+      object-fit: cover;
+    
+    }
+
+    h2 {
+      margin-top: 20px;
+      color: #1e3c72;
+    }
+    h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    .menu {
+  background-color: #1e3c72; /* fundo azul igual ao lado direito */
+  padding: 10px;
+}
+
+.menu ul {
+  list-style: none; /* tira as bolinhas */
+  margin: 0;
+  padding: 0;
+  display: flex; /* deixa os itens lado a lado */
+  gap: 20px; /* espaço entre eles */
+}
+
+.menu a {
+  text-decoration: none; /* tira o sublinhado */
+  color: #fff; /* texto branco */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #ffcc00; /* cor ao passar o mouse */
+}
